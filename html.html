@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CV - Hoang Ngoc Trung</title>
+    <style>
+    body {
+        font-family: 'Arial', sans-serif;
+        line-height: 1.6;
+        margin: 20px;
+        background-color: #f8f8f8;
+        color: #333;
+        display: flex;
+        justify-content: center;
+        align-items: flex-start;
+        min-height: 100vh;
+    }
+    .container {
+        max-width: 700px;
+        background-color: #fff;
+        padding: 30px;
+        border-radius: 8px;
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        border: 1px solid #ddd;
+        position: relative; /* Needed for absolute positioning of the image */
+    }
+    h1, h2, h3 {
+        color: #0056b3;
+    }
+    h1 {
+        font-size: 2.8em;
+        margin-bottom: 5px;
+    }
+    .contact-info {
+        margin-bottom: 25px;
+        font-size: 0.95em;
+        color: #555;
+    }
+    .section {
+        margin-bottom: 30px;
+    }
+    .section-title {
+        font-size: 1.4em;
+        font-weight: bold;
+        color: #333;
+        border-bottom: 2px solid #0056b3;
+        padding-bottom: 8px;
+        margin-bottom: 15px;
+    }
+    .job-title {
+        font-weight: bold;
+        margin-bottom: 3px;
+    }
+    .company-name {
+        font-style: italic;
+        color: #777;
+        margin-bottom: 2px;
+    }
+    .job-dates {
+        font-size: 0.85em;
+        color: #777;
+        margin-bottom: 12px;
+    }
+    ul {
+        list-style-type: disc;
+        margin-left: 20px;
+        margin-bottom: 10px;
+    }
+    li {
+        margin-bottom: 5px;
+    }
+    .skills-section ul {
+        list-style-type: none;
+        padding: 0;
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+        gap: 8px;
+    }
+    .skills-section li {
+        background-color: #e9ecef;
+        color: #333;
+        padding: 8px 12px;
+        border-radius: 5px;
+        font-size: 0.9em;
+        margin-bottom: 0;
+    }
+    .education-item {
+        margin-bottom: 15px;
+    }
+    .degree {
+        font-weight: bold;
+    }
+    .institution {
+        font-style: italic;
+        color: #777;
+    }
+    .project-item {
+        margin-bottom: 15px;
+    }
+    .project-title {
+        font-weight: bold;
+        margin-bottom: 3px;
+    }
+    .awards-item {
+        margin-bottom: 8px;
+        font-size: 0.9em;
+    }
+    .references {
+        font-size: 0.9em;
+        color: #555;
+        margin-top: 20px;
+    }
+    .profile-image-container {
+        position: absolute;
+        top: 10px; /* Adjust as needed */
+        right: 10px; /* Adjust as needed */
+        width: 100px; /* Adjust size as needed */
+        height: 100px; /* Adjust size as needed */
+        /* border-radius: 50%; Remove this line */
+        overflow: hidden; /* Clip image to container shape */
+        border: 2px solid #ddd;
+    }
+    .profile-image {
+        width: 100%;
+        height: 100%;
+        object-fit: cover; /* Ensure image covers the container */
+    }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <section style="position: relative;"> <div class="profile-image-container">
+                <img src="your-profile-image.jpg" alt="Your Profile Picture" class="profile-image">
+            </div>
+            <h1> Hoang Ngoc Trung</h1>
+            <p class="contact-info">
+                 0345870666 | <a> hoang.n.trung171@gmail.com</a>  
+            </p>
+        </section>
+
+        <section class="section">
+            <h2 class="section-title">Tóm tắt</h2>
+            <p> [Một đoạn ngắn gọn (khoảng 3-4 câu) giới thiệu về bạn, kinh nghiệm nổi bật nhất và mục tiêu nghề nghiệp. Nhấn mạnh những kỹ năng và thành tựu quan trọng nhất liên quan đến vị trí bạn ứng tuyển.]</p>
+        </section>
+
+        <section class="section">
+            <h2 class="section-title">Kinh nghiệm làm việc</h2>
+            <div class="job">
+                <p class="job-title"> Chuyên viên kỹ thuật</p>
+                <p class="company-name"> NCPC</p>
+                <p class="job-dates"> 2024 - 2025</p>
+                <ul>
+                    <li> Lắp đặt, nâng cấp, tư vấn PC, Laptop, thiết bị ngoại vi</li>
+                    <li> Tiếp nhận yêu cầu hỗ trợ kỹ thuật từ khách hàng trực tiếp tại cửa hàng.</li>
+                    <li> Chẩn đoán và khắc phục các sự cố phần cứng, phần mềm và các vấn đề kỹ thuật khác trên thiết bị của khách hàng.</li>
+                    <li> Hướng dẫn khách hàng về cách sử dụng, bảo trì và xử lý các sự cố đơn giản đối với thiết bị của họ.</li>
+                    <li> Hỗ trợ quản lý kho hàng linh kiện và vật tư tiêu hao liên quan đến kỹ thuật.</li>
+                </ul>
+            </div>
+            <div class="job">
+                <p class="job-title"> IT Helpdesk</p>
+                <p class="company-name"> Rikkeisoft</p>
+                <p class="job-dates"> 2022 - 2024</p>
+                <ul>
+                    <li> Cung cấp, quản lý thiết bị của nhân viên công ty</li>
+                    <li> Tìm kiếm, trao đổi với đối tác cung cấp nguồn hàng linh kiện vật tư</li>
+                    <li> Tiếp nhận ticket sự cố và khắc phục các sự cố phần cứng trên thiết bị của công ty.</li>
+                </ul>
+            </div>
+        </section>
+
+        <section class="section">
+            <h2 class="section-title">Học vấn</h2>
+            <div class="education-item">
+                <p class="degree"> Đại học |  Công nghệ thông tin</p>
+                <p class="institution"> </p>
+            </div>
+        </section>
+
+        <section class="section skills-section">
+            <h2 class="section-title">Kỹ năng</h2>
+            <h3>Kỹ năng chuyên môn</h3>
+            <ul>
+                <li> Hệ điều hành: Cài đặt Windows (10, 11), Ubuntu</li>
+                <li> </li>
+                <li> </li>
+            </ul>
+            <h3>Ngôn ngữ</h3>
+            <ul>
+                <li> Tiếng Anh - B2</li>
+            </ul>
+        </section>
+
+        <!-- <section class="section">
+            <h2 class="section-title">Dự án (Tùy chọn)</h2>
+            <div class="project-item">
+                <p class="project-title"> [Tên dự án]</p>
+                <p> [Mô tả ngắn gọn về dự án và vai trò/đóng góp của bạn.]</p>
+            </div>
+            <div class="project-item">
+                <p class="project-title"> [Tên dự án khác]</p>
+                <p> [Mô tả ngắn gọn.]</p>
+            </div>
+        </section> -->
+
+        <!-- <section class="section">
+            <h2 class="section-title">Chứng chỉ (Tùy chọn)</h2>
+            <ul>
+                <li> [Chứng chỉ 1]</li>
+                <li> [Chứng chỉ 2]</li>
+            </ul>
+        </section>
+
+        <section class="section">
+            <h2 class="section-title">Giải thưởng (Tùy chọn)</h2>
+            <ul>
+                <li> [Giải thưởng 1]</li>
+                <li> [Giải thưởng 2]</li>
+            </ul>
+        </section> -->
+
+        <!-- <section class="references">
+            <p>Người tham chiếu sẵn sàng cung cấp theo yêu cầu.</p>
+        </section> -->
+    </div>
+</body>
+</html>
